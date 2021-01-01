@@ -1,5 +1,26 @@
 #![no_std]
 
+/// Trait to implement the `.toogle()` method, to switch between two values
+///
+/// ## Exemple
+/// ```rust
+/// use toogle::Toggle;
+///
+/// #[derive(PartialEq, Eq)]
+/// pub enum TwoEnum {
+///     Value1, Value2
+/// };
+///
+/// impl Toggle for TwoEnum {
+///     fn toggle(&mut self) {
+///         *self = match *self {
+///             TwoEnum::Value1 => TwoEnum::Value2,
+///             TwoEnum::Value2 => TwoEnum::Value1,
+///         }
+///     }
+/// }
+///
+/// ```
 pub trait Toggle {
     fn toggle(&mut self);
 }

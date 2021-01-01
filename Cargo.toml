@@ -1,9 +1,9 @@
 [package]
 name = "toogle"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Zacharie Corniere <cornierez@gmail.com>"]
 edition = "2018"
-description = "Allow you to toogle boolean value. This crate is under the Do What the Fuck You Want To Public License"
+description = "Allow you to toogle between two values. This crate is under the Do What the Fuck You Want To Public License. Also typo in the name but you can't rename the crate one uploaded xD"
 repository = "https://github.com/zcorniere/toogle"
 license-file = "LICENSE"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
